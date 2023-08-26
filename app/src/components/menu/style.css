@@ -1,0 +1,55 @@
+.sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    padding-left: 0;
+    transform: translateX(-150%);
+    transition: transform 500ms cubic-bezier(.68, -0.55, 0.265, 1.55);
+    transition-delay: .2s;
+    border-right: solid 1px black;
+}
+
+.sidenav-open {
+
+    position: absolute;
+    margin: 0 auto;
+    transition: transform 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateX(0);
+}
+
+.sidenav-close {
+
+    transform: translateX(-200%);
+}
+
+
+nav ul li {
+    font-family: 'Segoe UI';
+    list-style-type: none;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Britannic';
+    font-size: 30px;
+    padding: 20px 40px;
+}
+
+.btn-menu {
+    cursor: pointer;
+}
+
+.sidebar-footer {
+    padding: 40px;
+}
