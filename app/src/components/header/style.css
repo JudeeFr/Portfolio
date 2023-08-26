@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    height: 100px;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+.header-btns {
+    display: flex;
+    gap: 15px;
+
+}
+
+.hire-btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Britannic', 'Segoe UI';
+    padding: 10px 15px;
+}

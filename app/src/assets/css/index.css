@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'Britannic';
+  src: url("../fonts/Britannic_Bold_Regular.ttf") format('truetype')
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/Segoe_UI.woff") format("woff");
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Britannic', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +25,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  flex: 1;
+}
+
+p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 'Britannic';
+  font-size: 34px;
+}
+
+.main {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  border: solid 1px black;
+
+}
+
+.main-img {
+  padding-top: 100px;
+}
+
+.content {
+  padding: 100px;
+}
+
+.content-home {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.content-home p {
+  padding-top: 50px;
 }
