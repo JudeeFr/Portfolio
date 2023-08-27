@@ -9,6 +9,8 @@
     transition: transform 500ms cubic-bezier(.68, -0.55, 0.265, 1.55);
     transition-delay: .2s;
     border-right: solid 1px black;
+    background-color: black;
+    color: white;
 }
 
 .sidenav-open {

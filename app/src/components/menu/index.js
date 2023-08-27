@@ -40,9 +40,9 @@ export default function Menu() {
                     <li><Link to="/about">Hire me</Link></li>
                     </ul>
                 </nav>
-                <div className='sidebar-footer'>
+                {/* <div className='sidebar-footer'>
                     <img src="./images/book.jpg" alt="book" width="200px"/>
-                </div>
+                </div> */}
                 
             </div>
             

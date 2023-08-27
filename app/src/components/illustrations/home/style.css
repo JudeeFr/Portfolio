@@ -1,0 +1,85 @@
+.svgillu-judee {
+    width: 300px;
+    height: auto;
+}
+
+.svgillu-cupcake {
+    width: 90px;
+    height: auto;
+    animation: wobble 5s linear -1s infinite;
+    transform-origin: 520.05px 284.95px;
+}
+
+.svgillu-bird {
+    width: 90px;
+    height: auto;
+    animation: wobble 5s linear 0s infinite;
+    transform-origin: 436.55px 90.3px;
+}
+
+.svgillu-globe {
+    width: 90px;
+    height: auto;
+
+    transform-origin: 436.55px 90.3px;
+}
+
+image#globe {
+    animation: wobble 5s linear -2s infinite;
+}
+
+.svg-floating {
+    animation: floatingAround 3s linear infinite;
+}
+
+.svg-floating:first-of-type {
+    animation-delay: 0s;
+}
+
+.svg-floating:nth-of-type(2) {
+    animation-delay: -1s;
+}
+
+.svg-floating:nth-of-type(3) {
+    animation-delay: -2s;
+}
+
+@keyframes floatingAround {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes wobble {
+    0% {
+        transform: rotate(0);
+    }
+
+    1.5% {
+        transform: rotate(2deg);
+    }
+
+    3% {
+        transform: rotate(-2deg);
+    }
+
+    4.5% {
+        transform: rotate(2deg);
+    }
+
+    5.5% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

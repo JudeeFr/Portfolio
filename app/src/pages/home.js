@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-
+import HomeIllu from '../components/illustrations/home/homeIllu';
 
 export default function Home() {
 	return (
@@ -9,15 +9,13 @@ export default function Home() {
 			<Header/>
 			<div className='main'>
 				<div className='main-img'>
-					<img src="./images/home.jpg" alt="Judee Portfolio"/>
+					<HomeIllu/>					
 				</div>
 				<div className='content content-home'>
 					<h1>Hi ! I'm Judee </h1>
-					<p>J'ai deux passions, le développement web et la philosophie. 
-					<br/>
-						Mélangez les deux et vous obtenez : 
-						<br/><br/>
-						Une autre vision de la programmation🍃
+					<p>I have two passions, web development and philosophy.  
+					<br/>Mix the two and you get : 
+					<br/><br/>Another vision of programming🍃
 					</p>
 				</div>
 			</div>
