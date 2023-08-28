@@ -15,11 +15,12 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Britannic', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fffdf9; */
 }
 
 code {
@@ -32,12 +33,12 @@ code {
 }
 
 p {
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
 }
 
 h1 {
-  font-size: 'Britannic';
+  font-size: 'Britannic', sans-serif;
   font-size: 34px;
 }
 
@@ -45,27 +46,54 @@ h1 {
   display: flex;
   width: 65%;
   justify-content: center;
-  border: solid 1px black;
 
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 0 30px;
+
 }
 
 .main-img {
-  display: block;
-  padding-top: 100px;
-  margin-top: 0;
-  padding-top: 0;
+  display: flex;
+
+  padding-top: 50px;
 }
 
 .content {
-  padding: 100px;
+  /* padding: 20px; */
+  align-self: center;
 }
 
 .content-home {
   text-align: center;
-  padding-top: 150px;
+
 }
 
-.content-home p {
-  padding-top: 50px;
+.content h1 {
+  padding: 0;
+}
+
+.text {
+  padding: 50px 50px 0 0;
+}
+
+.underline {
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  background-image: linear-gradient(120deg, #f26389 0%, #f3a3b2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  margin: 15px 0;
+}
+
+.underline:hover {
+  background-size: 100% 88%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

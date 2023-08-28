@@ -13,9 +13,11 @@ export default function Home() {
 				</div>
 				<div className='content content-home'>
 					<h1>Hi ! I'm Judee </h1>
-					<p>I have two passions, web development and philosophy.  
+					<p className='text'>
+					I have two passions, web development and philosophy.  
 					<br/>Mix the two and you get : 
-					<br/><br/>Another vision of programming🍃
+					<br/><br/>
+					<span className='underline'>Another vision of programming.</span>
 					</p>
 				</div>
 			</div>

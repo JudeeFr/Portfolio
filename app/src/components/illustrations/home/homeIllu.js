@@ -7,24 +7,24 @@ import './style.css'
 
 export default function homeIllu() {
   return (
-      
+     
         <svg className='judee-portrait' role='img' viewBox="0 0 470 530" version="1.1"
-     				xmlns="http://www.w3.org/2000/svg" xmlnsXlink= "http://www.w3.org/1999/xlink"
-					width="470" height="530">
-						<title>Portrait illustration of Judee with a bird, a cupcake and some travel dreams</title>
-                        <Judee/>                
-						<g className='svg-floating'>
-							<Globe/>
-						</g>
-						<g className='svg-floating'>
-							<Bird/>
-						</g>
-						<g className='svg-floating'>
-							<Cupcake/>
+     	xmlns="http://www.w3.org/2000/svg" xmlnsXlink= "http://www.w3.org/1999/xlink"
+		width="500" height="500">
+			<title>Portrait illustration of Judee with some dreams of freedom, travel and sweet</title>
+            <Judee/>                
+				<g className='svg-floating'>
+					<Globe/>
+				</g>
+				<g className='svg-floating'>
+					<Bird/>
+				</g>
+				<g className='svg-floating'>
+					<Cupcake/>
                             
-						</g>						
-					</svg>
-          
+				</g>						
+		</svg>
+		
       
   );
 }

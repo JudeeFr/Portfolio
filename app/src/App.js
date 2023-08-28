@@ -6,7 +6,7 @@ import Vision from './pages/vision'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
 import Notfound from './pages/notfound'
-
+import Skills from './pages/skills'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -27,6 +27,10 @@ const router = createBrowserRouter([
 	{
 		path: 'projects',
 		element: <Projects />,
+	},
+	{
+		path: 'skills',
+		element: <Skills />,
 	},
   {
 		path: 'contact',

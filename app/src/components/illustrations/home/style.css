@@ -1,6 +1,15 @@
+.judee-portrait {
+    background-image: url('../../../assets/img/bcg-home.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: 130px;
+    background-size: cover;
+}
+
 .svgillu-judee {
     width: 300px;
     height: auto;
+
 }
 
 .svgillu-cupcake {
