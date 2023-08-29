@@ -20,7 +20,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #fffdf9; */
+  /* background-image: url('../img/main-bcg.png');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 code {
@@ -47,7 +50,7 @@ h1 {
   width: 65%;
   justify-content: center;
 
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
   padding: 0 30px;
 
@@ -60,7 +63,7 @@ h1 {
 }
 
 .content {
-  /* padding: 20px; */
+  padding-right: 50px;
   align-self: center;
 }
 
@@ -74,7 +77,7 @@ h1 {
 }
 
 .text {
-  padding: 50px 50px 0 0;
+  padding: 50px 0 0 0;
 }
 
 .underline {

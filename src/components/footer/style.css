@@ -1,0 +1,22 @@
+.footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.copyright p {
+    font-size: 12px;
+    padding-top: 40px;
+}
+
+.icon:hover {
+    fill: #f26389;
+}
+
+
+.social {
+    display: grid;
+
+    justify-content: center;
+    grid-template-columns: 73px 60px 51px;
+    align-items: center;
+}

@@ -26,6 +26,9 @@
     transform: translateX(-200%);
 }
 
+.icon:hover {
+    fill: #f26389;
+}
 
 nav ul li {
     font-family: 'Segoe UI';
