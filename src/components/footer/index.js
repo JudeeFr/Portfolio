@@ -61,7 +61,7 @@ export default function Footer() {
 
             </div>
             <div className='copyright'>
-                <p>© Copyright 2023 - Judee.dev | Illustrations : Esther Gili.</p>
+                <p>© Copyright 2023 - Judee.dev</p>
             </div>
 		</div>
 	);

@@ -12,7 +12,7 @@ export default function Home() {
 					<HomeIllu/>					
 				</div>
 				<div className='content content-home'>
-					<h1>Hi ! I'm Judee </h1>
+					<h1 className='title'>Hi ! I'm Judee </h1>
 					<p className='text'>
 					I have two passions, web development and philosophy.  
 					<br/>Mix the two and you get : 

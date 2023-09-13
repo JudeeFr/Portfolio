@@ -1,13 +1,15 @@
 .judee-portrait {
     background-image: url('../../../assets/img/bcg-home.png');
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-y: 130px;
-    background-size: cover;
+    background-position: top;
+    background-position-y: -45px;
+    background-position-x: -10px;
+    background-size: 95%;
+
 }
 
 .svgillu-judee {
-    width: 300px;
+    width: 360px;
     height: auto;
 
 }
@@ -27,7 +29,7 @@
 }
 
 .svgillu-globe {
-    width: 90px;
+    width: 70px;
     height: auto;
 
     transform-origin: 436.55px 90.3px;
@@ -91,4 +93,11 @@ image#globe {
     100% {
         transform: rotate(0);
     }
+}
+
+.stars {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    z-index: 10;
 }
