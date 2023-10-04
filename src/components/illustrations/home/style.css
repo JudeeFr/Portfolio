@@ -1,35 +1,35 @@
-.judee-portrait {
+/* .judee-portrait {
     background-image: url('../../../assets/img/bcg-home.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-position-y: -45px;
+    background-position-y: 5px;
     background-position-x: -10px;
     background-size: 95%;
 
-}
+} */
 
 .svgillu-judee {
-    width: 360px;
+    width: 340px;
     height: auto;
 
 }
 
 .svgillu-cupcake {
-    width: 90px;
+    width: 100px;
     height: auto;
     animation: wobble 5s linear -1s infinite;
     transform-origin: 520.05px 284.95px;
 }
 
 .svgillu-bird {
-    width: 90px;
+    width: 150px;
     height: auto;
     animation: wobble 5s linear 0s infinite;
     transform-origin: 436.55px 90.3px;
 }
 
 .svgillu-globe {
-    width: 70px;
+    width: 110px;
     height: auto;
 
     transform-origin: 436.55px 90.3px;

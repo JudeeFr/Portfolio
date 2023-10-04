@@ -14,15 +14,14 @@ export default function About() {
 				<div className='content content-about'>
 					<h1>About me</h1>
 					<p className='text'>
-					I'm a web developer student and I want to become a Java software engineer.
+					I'm a junior front-end developer and I want to develop my skills on design and illustration to complete the power of web developement.
 					<br></br><br></br>
-					I live in Aix Les Bains from France, between lac and montains.<br></br><br></br>
-					I am a self-taught woman with a high-potential and a hypersensitive profile.
-					My personality is reserved and discreet. I carry the values of integrity and freedom. 
-					My dark side is that I am also a rather dynamic and positive temperament and I love to play with the words.<br></br><br></br>
-					I like to spend my free time reading and writing, studying psychology, philosophy and the human science.<br></br> 		
-					I'd also like to learn how to draw digitally on Procreate to do science fiction illustrations and character design.<br></br> <br></br>
-					I like to cook Thai, Japanese and Italian food to please my family and friends. 
+					I am 42 years old and I live in Aix Les Bains from France, between lac and montains.<br></br><br></br>
+					I'm a self-taught person with high potential and a hypersensitive profile. My personality is reserved and discreet. My values are integrity and freedom. I'm also rather dynamic and positive. My darker side is that I'm often too perfectionist and anxious.<br></br><br></br>
+					My ambition is to be a freelance and offer creative web design and coaching services.<br></br> 
+					I document my learning on Linkedin, Instagram and my blog.<br></br><br></br> 		
+					I like to spend my free time reading and writing, studying psychology, philosophy and the human sciences. I also like to enjoy nature.<br></br> 
+					
 					</p>
 				</div>
 			</div>

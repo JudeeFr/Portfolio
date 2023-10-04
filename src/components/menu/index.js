@@ -36,10 +36,10 @@ export default function Menu() {
                     <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">Know more about me</Link></li>
-                    <li><Link to="/vision">Understand my vision</Link></li>
+                    {/* <li><Link to="/vision">Understand my vision</Link></li> */}
                     <li><Link to="/projects">View my projects</Link></li>
                     <li><Link to="/skills">Discover my skills</Link></li>
-                    <li><a href='https://judeefr.medium.com/' target='_blank' rel="noreferrer">Read me</a></li>
+                    {/* <li><a href='#' target='_blank' rel="noreferrer">Read me</a></li> */}
                     <li><Link to="/contact">Hire me</Link></li>
                     </ul>
                 </nav>

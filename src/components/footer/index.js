@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import ElonMusk from './elonMusk';
+import Insta from './insta';
 
 export default function Footer() {
 	return (
@@ -49,8 +49,8 @@ export default function Footer() {
                 </g>
                 </svg>
             </a>
-            <a href="https://twitter.com/JudeeFr" target="_blank" rel="noreferrer">
-                <ElonMusk/>
+            <a href="https://instagram.com/judee.dev" target="_blank" rel="noreferrer">
+                <Insta/>
                 {/* <svg className="icon" x="0px" y="0px" fill="#000000" viewBox="0 0 1668.56 1221.19" width="40" height="40">
                 <title>Twitter</title>
                 <path id="path1009" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99

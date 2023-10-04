@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import HomeIllu from '../components/illustrations/home/homeIllu';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 	return (
@@ -14,10 +15,11 @@ export default function Home() {
 				<div className='content content-home'>
 					<h1 className='title'>Hi ! I'm Judee </h1>
 					<p className='text'>
-					I have two passions, web development and philosophy.  
-					<br/>Mix the two and you get : 
+					I'm a junior front-end developer. <br/> 
+					I'm also a graphic designer & illustrator student. 
+					<br/> 
 					<br/><br/>
-					<span className='underline'>Another vision of programming.</span>
+					<span className='underline'><Link to="/projects">View my projects</Link></span>
 					</p>
 				</div>
 			</div>

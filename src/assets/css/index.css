@@ -57,6 +57,22 @@ a {
   color: inherit;
 }
 
+.underline {
+
+  font-size: 18px;
+  background-image: linear-gradient(120deg, #f26389 0%, #f3a3b2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  margin: 15px 0;
+}
+
+.underline:hover {
+  background-size: 100% 88%;
+  color: white;
+}
+
 .main {
   display: flex;
   width: 65%;
@@ -90,21 +106,41 @@ a {
 }
 
 .text {
-  padding: 50px 0 0 0;
+  padding: 40px 0 0 0;
 }
 
-.underline {
-
-  font-size: 18px;
-  background-image: linear-gradient(120deg, #f26389 0%, #f3a3b2 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  margin: 15px 0;
+.projects-content {
+  text-align: center;
 }
 
-.underline:hover {
-  background-size: 100% 88%;
-  color: white;
+.projects-menu-category {
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.content-skills {
+  width: 65%;
+  padding: 50px 25px 50px 50px;
+}
+
+.content-softskills {
+  width: 35%;
+  padding: 50px 50px 50px 25px;
+}
+
+.skills-illu {
+  right: 80px;
+  top: 62px;
+  position: relative;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.skills-icons {
+  display: flex;
+
 }
