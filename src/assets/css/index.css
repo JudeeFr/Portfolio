@@ -129,8 +129,8 @@ a {
 }
 
 .skills-illu {
-  right: 80px;
-  top: 62px;
+  right: 0px;
+  top: 92px;
   position: relative;
 }
 
@@ -140,7 +140,15 @@ a {
 
 }
 
+.box {
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
 .skills-icons {
   display: flex;
-
+  gap: 5px;
+  justify-content: left;
+  padding-top: 10px;
 }
