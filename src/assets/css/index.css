@@ -152,3 +152,54 @@ a {
   justify-content: left;
   padding-top: 10px;
 }
+
+.contact-form {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.form-content {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+
+input:focus {
+  border-bottom: 2px solid #f26389;
+  outline: none;
+}
+
+input[type=textarea] :focus {
+  border-bottom: 2px solid #f26389;
+  outline: none;
+}
+
+.label {
+  text-align: left;
+  color: #f26389;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Britannic', 'Segoe UI';
+  padding: 5px 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #f26389;
+  border-color: #f26389;
+}

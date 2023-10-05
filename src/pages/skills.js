@@ -12,7 +12,7 @@ import wordpress from '../assets/icons/wordpress-50.svg'
 import seo from '../assets/icons/seo-50.svg'
 import git from '../assets/icons/github-50.svg'
 import vscode from '../assets/icons/visual-studio-code-50.svg'
-import firebase from '../assets/icons/firebase-50.svg'
+import firebase from '../assets/icons/firebase.png'
 import xd from '../assets/icons/adobe-xd-50.svg'
 import photoshop from '../assets/icons/adobe-photoshop-50.svg'
 import illustrator from '../assets/icons/adobe-illustrator-50.svg'
@@ -21,6 +21,7 @@ import word from '../assets/icons/word-50.svg'
 import excel from '../assets/icons/excel-50.svg'
 import jira from '../assets/icons/jira-50.svg'
 import notion from '../assets/icons/notion-50.svg'
+import analytics from '../assets/icons/google-analytics-50.svg'
 
 export default function skills( ) {
     return (
@@ -70,10 +71,17 @@ export default function skills( ) {
                                 <h3>Tools / Plateforms</h3>
                                 <div className="skills-icons">
                                     <img src={wordpress} title="Wordpress" alt="Wordpress" width={35} height={35}></img>
-                                    <img src={seo} title="SEO" alt="SEO" width={35} height={35}></img>
                                     <img src={git} title="Git" alt="Git" width={35} height={35}></img>
                                     <img src={vscode} title="Vs Code" alt="Vs Code" width={35} height={35}></img>
                                     <img src={firebase} title="Firebase" alt="Firebase" width={35} height={35}></img>
+                                </div>
+                            </div>
+                            <div className="box">
+                                <h3>Marketing Digital</h3>
+                                <div className="skills-icons">                                 
+                                    <img src={seo} title="SEO" alt="SEO" width={35} height={35}></img>
+                                    <img src={analytics} title="Google Analytics" alt="Google Analytics" width={35} height={35}></img>
+                                    
                                 </div>
                             </div>
                         </div>
