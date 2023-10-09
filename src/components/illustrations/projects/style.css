@@ -10,6 +10,7 @@
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+
 .projects-illus {
     position: absolute;
 }
@@ -32,4 +33,39 @@
     justify-content: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.svg-floating-girl {
+    animation: floatingAround 5s linear infinite;
+    animation-delay: 0s;
+}
+
+
+.svg-floating-firstcloud,
+.svg-floating-secondcloud {
+    animation: floatingAround 3s linear infinite;
+}
+
+
+.svg-floating-firstcloud {
+    animation-delay: -1s;
+}
+
+.svg-floating-secondcloud {
+    animation-delay: -2s;
+}
+
+@keyframes floatingAround {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
 }

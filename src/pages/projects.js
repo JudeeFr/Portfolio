@@ -9,10 +9,19 @@ import Secondcloud from '../components/illustrations/projects/secondcloud'
 export default function Projects() {
 	const [showModal, setShowModal] = useState(false);
     
-	const modal = () => {	
+	const works = () => {
+		fetch()
+	}
+
+	const webDevBtn = () => {	
 		setShowModal(true)
-		
+		const webDev = works.filter((works) => {
+			return works.categoryId === 1;
+		});
+		works(webDev);
 	  }
+
+
 	return (
 		<div>
 			<Header/>
@@ -30,10 +39,10 @@ export default function Projects() {
 					<div className='projects-menu'>
 						
 						<div className='projects-menu-category'>
-							<li><span className='underline' onClick={modal}>Web developement</span></li>
-							<li><span className='underline' onClick={modal}>Web design</span></li>
-							<li><span className='underline' onClick={modal}>Brand</span></li>
-							<li><span className='underline' onClick={modal}>Illustrations</span></li>
+							<li><span className='underline' onClick={webDevBtn}>Web developement</span></li>
+							<li><span className='underline' >Web design</span></li>
+							<li><span className='underline' >Brand</span></li>
+							<li><span className='underline' >Illustrations</span></li>
 						</div>	
 					</div>			
 				</div>

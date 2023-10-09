@@ -51,7 +51,7 @@ nav ul li a:hover {
     color: white;
 }
 
-h1 {
+.menu-title {
     font-family: 'Britannic';
     font-size: 30px;
     padding: 20px 40px;

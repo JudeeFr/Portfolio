@@ -22,6 +22,7 @@ import excel from '../assets/icons/excel-50.svg'
 import jira from '../assets/icons/jira-50.svg'
 import notion from '../assets/icons/notion-50.svg'
 import analytics from '../assets/icons/google-analytics-50.svg'
+import procreate from '../assets/icons/procreate.svg'
 
 export default function skills( ) {
     return (
@@ -31,7 +32,10 @@ export default function skills( ) {
 				
                 
                     <div className='content-skills'>
-                        <h1>Skills</h1>
+                        <h1>My Skills</h1>
+                        <p className="under-title">
+                        I develop websites/applications that are functional, responsive and efficient.
+                        </p>
                         <div className="skills-grid">
                             <div className="box">
                                 <h3>Programming</h3>
@@ -48,6 +52,7 @@ export default function skills( ) {
                                     <img src={illustrator} title="Illustrator" alt="Illustrator" width={35} height={35}></img>
                                     <img src={xd} title="Adobe XD" alt="Adobe XD" width={35} height={35}></img>
                                     <img src={figma} title="Figma" alt="Figma" width={35} height={35}></img>
+                                    <img src={procreate} title="Procreate" alt="Procreate" width={35} height={35}></img>
                                 </div>
                             </div>
                             <div className="box">
@@ -89,7 +94,7 @@ export default function skills( ) {
 
 
                     <div className='content-softskills'>
-                        <h1>Softs Skills</h1>
+                        <h1>My Softs Skills</h1>
                         <p className='text'>
                         Analytical skills, versatility, 
                         rigour, 

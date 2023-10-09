@@ -32,12 +32,12 @@ export default function Menu() {
              className={`sidenav ${menuCollapse ? 'sidenav-close' : 'sidenav-open'}`}>
             
                 <nav>
-                    <h1>Menu</h1>
+                    <h1 className='menu-title'>Menu</h1>
                     <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">Know more about me</Link></li>
                     {/* <li><Link to="/vision">Understand my vision</Link></li> */}
-                    <li><Link to="/projects">View my projects</Link></li>
+                    <li><Link to="/projects">View my work</Link></li>
                     <li><Link to="/skills">Discover my skills</Link></li>
                     {/* <li><a href='#' target='_blank' rel="noreferrer">Read me</a></li> */}
                     <li><Link to="/contact">Hire me</Link></li>

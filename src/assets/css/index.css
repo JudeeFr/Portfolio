@@ -49,12 +49,18 @@ p {
 h1 {
   font-family: 'Britannic', sans-serif;
   font-size: 34px;
+  padding-bottom: 10px;
+
 }
 
 a {
   font-family: 'Cabinet';
   text-decoration: none;
   color: inherit;
+}
+
+.under-title {
+  font-style: italic;
 }
 
 .underline {
@@ -106,7 +112,7 @@ a {
 }
 
 .text {
-  padding: 40px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .projects-content {
@@ -130,7 +136,7 @@ a {
 
 .skills-illu {
   right: 0px;
-  top: 92px;
+  top: 130px;
   position: relative;
 }
 
