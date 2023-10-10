@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './assets/css/App.css';
 import Home from './pages/home'
 import About from './pages/about'
