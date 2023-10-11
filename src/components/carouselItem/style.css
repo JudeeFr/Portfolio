@@ -12,5 +12,18 @@
     margin: 40px 0 40px 0;
     padding: 0 20px 0 20px;
     white-space: normal;
-    color: #617d98;
+    width: 50%;
+}
+
+.carousel-img {
+    display: flex;
+    width: 50%;
+}
+
+.carousel-picture1 {
+    width: 100%;
+}
+
+.carousel-item-description {
+    padding: 15px;
 }
