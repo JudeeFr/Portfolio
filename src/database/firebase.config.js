@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getFirestore, collection } from "firebase/firestore"
 // import { getAnalytics } from "firebase/analytics";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -21,3 +22,11 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
 
+	
+// init services: used to reach out to get data
+const db = getFirestore(app);
+// collection reference 
+export const webDev = collection(db, 'webDev')
+
+// queries
+// export const webDev = query(colRef, where("collection", "==", "webDev"))

@@ -226,19 +226,24 @@ input[type=textarea] :focus {
 
 .modal-wrapper {
   background-color: white;
-  width: 700px;
   padding: 60px;
   max-width: calc(100vw - 20px);
   max-height: calc(100vh - 20px);
   overflow: auto;
   border-radius: 10px;
   text-align: center;
+  height: 100vh;
 }
 
-.modal-wrapper h3 {
-  padding: 10px;
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.modal-wrapper p {
-  color: red;
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
 }
