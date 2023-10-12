@@ -238,13 +238,13 @@ input[type=textarea] :focus {
   overflow: auto;
   border-radius: 10px;
   text-align: center;
-  height: 100vh;
+  height: 80vh;
 
 }
 
 .carousel {
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,8 +256,7 @@ input[type=textarea] :focus {
   white-space: nowrap;
   transition: transform 0.3s;
   height: 80%;
-  padding: 20px;
-
+  width: 100%;
 }
 
 .carousel-buttons {
@@ -265,7 +264,9 @@ input[type=textarea] :focus {
   justify-content: space-evenly;
 }
 
-
+.carousel-buttons:hover {
+  color: #f26389;
+}
 
 .indicators {
   display: flex;
@@ -293,8 +294,8 @@ input[type=textarea] :focus {
 .btn-close {
   cursor: pointer;
   position: absolute;
-  top: 5%;
-  right: 5%;
+  top: 2%;
+  right: 2%;
 }
 
 .arrow-right {

@@ -18,9 +18,9 @@ export default function CarouselItem({item, width}) {
 					</div>
 					<p className="carousel-item-description">{item.description}</p>
 				</div>
-				<div className='carousel-tiem-btn'>
-					<button><a href={item.github} rel="noopener noreferrer" target='_blank'>Code</a></button>
-					<button><a href={item.live} rel="noopener noreferrer" target='_blank'>Live</a></button>
+				<div className='carousel-item-buttons'>
+					<button className="button"><a href={item.github}  rel="noopener noreferrer" target='_blank'>Code</a></button>
+					<button className="button"><a href={item.live}  rel="noopener noreferrer" target='_blank'>Live</a></button>
 				</div>
 			</div>
     </div>
