@@ -19,7 +19,7 @@ export default function Home() {
 					I'm also a graphic designer & illustrator student. 
 					<br/> 
 					<br/><br/>
-					<span className='underline'><Link to="/projects">View my work</Link></span>
+					<span className='underline'><Link to="/works">View my work</Link></span>
 					</p>
 				</div>
 			</div>

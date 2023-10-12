@@ -29,4 +29,5 @@ const db = getFirestore(app);
 export const webDev = collection(db, 'webDev')
 
 // queries
-// export const webDev = query(colRef, where("collection", "==", "webDev"))
+// export const webDevPictures = query(pictures, where("category", "==", "webdev" ))
+

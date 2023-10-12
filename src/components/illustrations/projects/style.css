@@ -18,10 +18,13 @@
 .firstcloud {
     z-index: 1;
     position: relative;
+    top: 60px;
+    right: -200px;
 }
 
 .secondcloud {
     position: absolute;
+    z-index: 0;
 }
 
 .projects-content {

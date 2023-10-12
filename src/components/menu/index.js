@@ -37,7 +37,7 @@ export default function Menu() {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">Know more about me</Link></li>
                     {/* <li><Link to="/vision">Understand my vision</Link></li> */}
-                    <li><Link to="/projects">View my work</Link></li>
+                    <li><Link to="/works">View my work</Link></li>
                     <li><Link to="/skills">Discover my skills</Link></li>
                     {/* <li><a href='#' target='_blank' rel="noreferrer">Read me</a></li> */}
                     <li><Link to="/contact">Hire me</Link></li>

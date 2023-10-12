@@ -3,7 +3,7 @@ import './assets/css/App.css';
 import Home from './pages/home'
 import About from './pages/about'
 import Vision from './pages/vision'
-import Projects from './pages/projects'
+import Works from './pages/works'
 import Contact from './pages/contact'
 import Notfound from './pages/notfound'
 import Skills from './pages/skills'
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
 		element: <Vision />,
 	},
 	{
-		path: 'projects',
-		element: <Projects />,
+		path: 'works',
+		element: <Works />,
 	},
 	{
 		path: 'skills',

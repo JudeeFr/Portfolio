@@ -12,7 +12,7 @@ import { webDev } from '../database/firebase.config';
 
 
 
-export default function Projects() {
+export default function Works() {
 	const [showModal, setShowModal] = useState(false);
 	const [ works, setWorks ] = useState([])
 	
@@ -90,7 +90,7 @@ const updateIndex = (newIndex) => {
 							
 									<div
 										className="inner"
-										style={{ transform: `translate(-${activeIndex * 100}%)`
+										style={{ transform: `translate(-${activeIndex * 105}%)`
 									}}
 									>
 										{works.map((item, idx) => {
@@ -100,10 +100,11 @@ const updateIndex = (newIndex) => {
 
 									<div className="carousel-buttons">
 										
-											<span className="btn-arrow arrow-left"onClick={() => {
+											<span className="btn-arrow"onClick={() => {
 												updateIndex(activeIndex - 1);
 											}}>
-												<img src={arrowLeft} alt="arrow left"/>
+												<img src={arrowLeft} className='arrow-left' alt="arrow left"/>
+												
 											</span>{" "}
 											
 										
@@ -124,10 +125,10 @@ const updateIndex = (newIndex) => {
 											);
 										})}
 										</div>
-										<span className="btn-arrow arrow-right" onClick={() => {
+										<span className="btn-arrow" onClick={() => {
 												updateIndex(activeIndex + 1);
 											}}>
-												<img src={arrowRight} alt="arrow right"/>
+												<img src={arrowRight} className='arrow-right' alt="arrow right"/>
 											</span>
 										
 										
