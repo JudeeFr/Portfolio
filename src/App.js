@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/App.css';
+// import './assets/css/App.css';
 import Home from './pages/home'
 import About from './pages/about'
 import Vision from './pages/vision'
@@ -9,8 +9,6 @@ import Notfound from './pages/notfound'
 import Skills from './pages/skills'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
-// ajout des chemins des pages
 const router = createBrowserRouter([
 	{
 		path: '/',

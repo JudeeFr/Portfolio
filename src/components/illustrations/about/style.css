@@ -1,0 +1,15 @@
+.about-illu {
+    width: 500px;
+    height: auto;
+    padding-left: 0;
+}
+
+/* responsive mobile  */
+@media screen and (max-width: 630px) {
+    .about-illu {
+        width: 350px;
+        height: auto;
+
+    }
+
+}

@@ -3,9 +3,11 @@
     padding-top: 30px;
 }
 
-.copyright p {
-    font-size: 12px;
+
+
+.copyright {
     padding-top: 40px;
+    font-size: 12px;
 }
 
 .icon:hover {

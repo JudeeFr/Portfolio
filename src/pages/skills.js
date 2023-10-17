@@ -23,6 +23,7 @@ import jira from '../assets/icons/jira-50.svg'
 import notion from '../assets/icons/notion-50.svg'
 import analytics from '../assets/icons/google-analytics-50.svg'
 import procreate from '../assets/icons/procreate.svg'
+import mongo from '../assets/icons/mongo.png'
 
 export default function skills( ) {
     return (
@@ -79,6 +80,7 @@ export default function skills( ) {
                                     <img src={git} title="Git" alt="Git" width={35} height={35}></img>
                                     <img src={vscode} title="Vs Code" alt="Vs Code" width={35} height={35}></img>
                                     <img src={firebase} title="Firebase" alt="Firebase" width={35} height={35}></img>
+                                    <img src={mongo} title="MongoDB" alt="MongoDB" width={35} height={35}></img>
                                 </div>
                             </div>
                             <div className="box">

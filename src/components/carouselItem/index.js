@@ -16,7 +16,10 @@ export default function CarouselItem({item, width}) {
 					<div className='carousel-item-tech'>
 						{item.technos?.map((tech, idx)=>(<img src={tech} alt='technology' key={idx} className='technology'/>))} 							
 					</div>
-					<p className="carousel-item-description">{item.description}</p>
+					<div className='carousel-item-description'>
+						<h3 className='carousel-item-description-title'>Mission</h3>
+						<p className="carousel-item-description-content">{item.description}</p>
+					</div>
 				</div>
 				<div className='carousel-item-buttons'>
 					<button className="button"><a href={item.github}  rel="noopener noreferrer" target='_blank'>Code</a></button>

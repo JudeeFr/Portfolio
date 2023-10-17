@@ -7,12 +7,16 @@
     background-size: 95%;
 
 } */
+/* responsive mobile  */
+@media screen and (max-width: 630px) {
+    .judee-portrait {
+        width: 300px;
+        height: auto;
 
-.svgillu-judee {
-    width: 340px;
-    height: auto;
+    }
 
 }
+
 
 .svgillu-cupcake {
     width: 100px;

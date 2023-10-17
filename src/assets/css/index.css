@@ -84,11 +84,11 @@ a {
   color: white;
 }
 
+
 .main {
   display: flex;
   width: 65%;
   justify-content: center;
-
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
   /* padding: 0 30px; */
@@ -97,7 +97,6 @@ a {
 
 .main-img {
   display: flex;
-
   padding-top: 50px;
 }
 
@@ -108,20 +107,38 @@ a {
 
 .content-home {
   text-align: center;
-
 }
 
 .content h1 {
   padding: 0;
-
 }
 
 .text {
   padding: 20px 0 0 0;
 }
 
+.projects-main {
+  width: 65%;
+  height: 555px;
+  /* background-color: rgb(255, 255, 255); */
+  background-image: url('../img/projects-bcg.png');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: top;
+  background-size: cover;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
 .projects-content {
   text-align: center;
+  position: relative;
+  width: 35%;
+  height: auto;
+  top: 100px;
+  padding: 50px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .projects-menu-category {
@@ -158,10 +175,8 @@ a {
 }
 
 .skills-icons {
-  display: flex;
-  gap: 5px;
-  justify-content: left;
-  padding-top: 10px;
+  padding: 10px 5px 0 0;
+
 }
 
 .contact-form {
@@ -213,6 +228,10 @@ input[type=textarea] :focus {
 .submit-btn:hover {
   background-color: #f26389;
   border-color: #f26389;
+}
+
+.content-notfound {
+  text-align: center;
 }
 
 /* fenetre modale  */
@@ -310,4 +329,67 @@ input[type=textarea] :focus {
   position: absolute;
   bottom: 5%;
   left: 5%;
+}
+
+/* responsive laptop */
+@media screen and (max-width: 1400px) {
+
+  .main,
+  .projects-main {
+    width: 80%;
+  }
+
+  .carousel {
+    width: 95%;
+  }
+
+  .modal-wrapper {
+    height: 95vh;
+  }
+}
+
+/* responsive tablet */
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .content-home,
+  .content,
+  .content-about {
+    padding: 50px;
+
+  }
+
+  .projects-content {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {}
+
+/* responsive mobile  */
+@media screen and (max-width: 630px) {
+  .main {
+    width: 100%;
+    box-shadow: inherit;
+    padding: 10px;
+  }
+
+  .projects-content {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.806);
+  }
+
+  .modal-wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+
 }
