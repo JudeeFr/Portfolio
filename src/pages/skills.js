@@ -29,9 +29,7 @@ export default function skills( ) {
     return (
         <div>
             <Header/>
-			<div className='main'>
-				
-                
+			<div className='main-skills'>               
                     <div className='content-skills'>
                         <h1>My Skills</h1>
                         <p className="under-title">

@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 630px) {
+    .contact-illu {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -80px;
+    }
+}

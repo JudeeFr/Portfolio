@@ -95,6 +95,14 @@ a {
 
 }
 
+.main-skills {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
 .main-img {
   display: flex;
   padding-top: 50px;
@@ -258,7 +266,6 @@ input[type=textarea] :focus {
   border-radius: 10px;
   text-align: center;
   height: 80vh;
-
 }
 
 .carousel {
@@ -268,13 +275,12 @@ input[type=textarea] :focus {
   flex-direction: column;
   justify-content: center;
   position: relative;
-
 }
 
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
-  height: 80%;
+  height: 93%;
   width: 100%;
 }
 
@@ -315,6 +321,7 @@ input[type=textarea] :focus {
   position: absolute;
   top: 2%;
   right: 2%;
+  z-index: 10;
 }
 
 .arrow-right {
@@ -335,7 +342,8 @@ input[type=textarea] :focus {
 @media screen and (max-width: 1400px) {
 
   .main,
-  .projects-main {
+  .projects-main,
+  .main-skills {
     width: 80%;
   }
 
@@ -354,11 +362,25 @@ input[type=textarea] :focus {
     flex-direction: column-reverse;
   }
 
+  .main-skills {
+    flex-direction: column;
+  }
+
   .content-home,
   .content,
   .content-about {
     padding: 50px;
+  }
 
+  .content-skills,
+  .content-softskills {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .skills-illu {
+    top: 30px;
+    left: -17px;
   }
 
   .projects-content {
@@ -375,6 +397,17 @@ input[type=textarea] :focus {
     width: 100%;
     box-shadow: inherit;
     padding: 10px;
+    background-color: transparent;
+  }
+
+  .main-skills {
+    width: 100%;
+    box-shadow: inherit;
+    padding: 10px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
   }
 
   .projects-content {
@@ -385,11 +418,10 @@ input[type=textarea] :focus {
   .modal-wrapper {
     width: 100vw;
     height: 100vh;
+    padding: 0 10px;
   }
 
   .carousel {
     width: 100%;
   }
-
-
 }

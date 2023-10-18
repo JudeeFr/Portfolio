@@ -1,3 +1,18 @@
-.notfound-illu {
+#eye-illu {
     width: 450px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    #eye-illu {
+        z-index: -1;
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #eye-illu {
+        width: 300px;
+
+    }
 }

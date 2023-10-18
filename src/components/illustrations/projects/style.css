@@ -3,8 +3,6 @@
     .firstcloud {
         display: none;
     }
-
-
 }
 
 /* responsive tablet */
@@ -12,20 +10,18 @@
     .secondcloud {
         display: none;
     }
-
-
 }
 
 /* responsive tablet */
 @media screen and (max-width: 630px) {
-    .projects-illus {
-        width: 350px;
+    .girl {
+        width: 100%;
     }
-
 }
 
 .projects-illus {
     position: absolute;
+
 }
 
 .firstcloud {
@@ -40,14 +36,10 @@
     z-index: 0;
 }
 
-
-
-
 .svg-floating-girl {
     animation: floatingAround 5s linear infinite;
     animation-delay: 0s;
 }
-
 
 .svg-floating-firstcloud,
 .svg-floating-secondcloud {
