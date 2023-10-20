@@ -85,6 +85,7 @@ a {
 }
 
 
+
 .main {
   display: flex;
   width: 65%;
@@ -265,12 +266,17 @@ input[type=textarea] :focus {
   overflow: auto;
   border-radius: 10px;
   text-align: center;
-  height: 80vh;
+}
+
+.gallery {
+  transition: margin-top 2s ease-in-out;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  height: 555px;
 }
 
 .carousel {
   overflow: hidden;
-  width: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -280,7 +286,7 @@ input[type=textarea] :focus {
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
-  height: 93%;
+  height: 80vh;
   width: 100%;
 }
 
@@ -346,21 +352,10 @@ input[type=textarea] :focus {
   .main-skills {
     width: 80%;
   }
-
-  .carousel {
-    width: 95%;
-  }
-
-  .modal-wrapper {
-    height: 95vh;
-  }
 }
 
 /* responsive tablet */
 @media screen and (max-width: 1200px) {
-  .main {
-    flex-direction: column-reverse;
-  }
 
   .main-skills {
     flex-direction: column;
@@ -389,7 +384,14 @@ input[type=textarea] :focus {
 
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+  .modal-wrapper,
+  .gallery {
+    height: 100vh;
+    padding: 0 10px;
+  }
+}
 
 /* responsive mobile  */
 @media screen and (max-width: 630px) {
@@ -415,13 +417,10 @@ input[type=textarea] :focus {
     background-color: rgba(255, 255, 255, 0.806);
   }
 
-  .modal-wrapper {
-    width: 100vw;
+  .modal-wrapper,
+  .gallery {
     height: 100vh;
     padding: 0 10px;
   }
 
-  .carousel {
-    width: 100%;
-  }
 }

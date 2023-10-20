@@ -57,7 +57,11 @@ export default function Footer() {
 		        h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"/>
                 </svg> */}
             </a>
-
+            {/* <div className='newsletter'>
+						<h3 style={{zIndex:'1'}}>The artist's diary</h3>
+						<p style={{zIndex:'1'}}>Abonnez-vous à ma newsletter quotidienne</p>
+						<iframe src="https://judeefr.substack.com/embed" title='Newsletter' className='newsletter-form' style={{background:'white'}} width="380" height="150"  frameBorder="0" scrolling="no"></iframe>
+					</div> */}
 
             </div>
             <div className='copyright'>
