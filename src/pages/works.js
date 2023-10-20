@@ -61,7 +61,7 @@ const updateIndex = (newIndex) => {
 					<Secondcloud/>								
 				</div>
 				<div className='projects-content'>
-					<h1>Here is my work !</h1>					
+					<h1>Here is my work!</h1>					
 					<p className='text'>
 						Choose a category
 						</p>
@@ -112,7 +112,7 @@ const updateIndex = (newIndex) => {
 					</div>			
 				</aside> */}
 			</div>
-			<div className='gallery main' style={{ display: !showModal ? 'none' : '' }}>
+			<div className='gallery ' style={{ display: !showModal ? 'none' : '' }}>
 				<div className="carousel">								
 							<svg className="btn-close icon" 
 								onClick={closeModal} fill="#000000" width="40px" height="40px" x="20" y="0" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
