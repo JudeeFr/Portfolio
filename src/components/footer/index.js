@@ -65,7 +65,7 @@ export default function Footer() {
 
             </div>
             <div className='copyright'>
-                © Copyright 2023 - Judee.dev
+                © Copyright 2023 - Judee.dev - <a href='mailto:hello@judee.dev'target='_blank'rel="noopener noreferrer">Contact me</a>
             </div>
 		</div>
 	);

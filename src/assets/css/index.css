@@ -349,6 +349,11 @@ input[type=textarea] :focus {
   left: 5%;
 }
 
+.success-message {
+  color: #f26389;
+  margin-top: 20px;
+}
+
 /* responsive laptop */
 @media screen and (max-width: 1400px) {
 

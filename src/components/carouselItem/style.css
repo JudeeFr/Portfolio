@@ -8,7 +8,6 @@
         margin: 0;
     }
 
-
     .carousel-pictures img {
         width: 250px;
         /* display: none; */
@@ -28,7 +27,6 @@
     }
 
     .carousel-pictures img {
-
         display: none;
     }
 
@@ -84,7 +82,7 @@
 }
 
 .carousel-item-tech {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .technology {

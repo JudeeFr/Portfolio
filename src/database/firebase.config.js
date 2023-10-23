@@ -24,7 +24,7 @@ export const app = initializeApp(firebaseConfig);
 
 	
 // init services: used to reach out to get data
-const db = getFirestore(app);
+export const db = getFirestore(app);
 // collection reference 
 export const webDev = collection(db, 'webDev')
 
