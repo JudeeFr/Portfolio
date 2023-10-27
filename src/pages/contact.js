@@ -56,7 +56,8 @@ export default function Contact() {
 					<h1>Hire me</h1>
 					<p className='text'>
 					Sorry, I'm not I'm not available to work at the moment. <br></br>
-					But you can say hello and I'll be happy to get back to you !
+					But you can say hello and I'll be happy to get back to you 
+					<span role="img" aria-label="smiling face">😊</span>
 					</p>
 					<form className='contact-form'style={{ display: !hideForm ? '' : 'none' }}
 					ref={form} onSubmit={sendEmail}>

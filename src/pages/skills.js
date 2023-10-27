@@ -102,7 +102,16 @@ export default function skills( ) {
                         listening, empathy, responsiveness, curiosity, 
                         creativity, 
                         critical thinking, autonomy.
-                        </p>
+                        </p><br></br><br></br>
+                        <div>
+                            <h1>Education</h1>
+                            <p className='text'>
+                            <strong>Web Developer and Integrator</strong><br></br> 
+                            Openclassrooms.com<br></br>                      
+                            févr.- nov. 2023<br></br> 
+                            Level : Bac + 2 / RNCP niveau 5
+                            </p>
+                        </div>
                         <img className="skills-illu" src={tiger} alt="tiger" width={350} height={250} ></img>
                     </div>
                 
