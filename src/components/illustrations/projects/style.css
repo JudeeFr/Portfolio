@@ -13,7 +13,13 @@
 }
 
 /* responsive tablet */
-@media screen and (max-width: 630px) {}
+@media screen and (max-width: 630px) {
+    .girl {
+        width: 320px;
+    }
+}
+
+
 
 .projects-illus {
     position: absolute;

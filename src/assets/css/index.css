@@ -89,6 +89,7 @@ a {
 .main {
   display: flex;
   width: 65%;
+
   justify-content: center;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
@@ -396,6 +397,8 @@ input[type=textarea] :focus {
 }
 
 @media screen and (max-width: 1024px) {
+
+
   .main {
     flex-direction: column-reverse;
   }
@@ -409,6 +412,7 @@ input[type=textarea] :focus {
 
 /* responsive mobile  */
 @media screen and (max-width: 630px) {
+
 
   .main,
   .gallery {

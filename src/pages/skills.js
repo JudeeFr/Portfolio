@@ -109,7 +109,7 @@ export default function skills( ) {
                             <strong>Web Developer and Integrator</strong><br></br> 
                             Openclassrooms.com<br></br>                      
                             févr.- nov. 2023<br></br> 
-                            Level : Bac + 2 / RNCP niveau 5
+                            Level : Bac + 2 / RNCP 5
                             </p>
                         </div>
                         <img className="skills-illu" src={tiger} alt="tiger" width={350} height={250} ></img>

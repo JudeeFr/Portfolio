@@ -12,6 +12,8 @@
 
 /* responsive mobile small format */
 @media screen and (max-width: 450px) {
+
+
     .logo img {
         width: 160px;
         height: auto;
